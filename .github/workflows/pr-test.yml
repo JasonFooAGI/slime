@@ -759,6 +759,10 @@ jobs:
             },
             {
               "num_gpus": 0,
+              "test_file": "test_streaming_rollout.py"
+            },
+            {
+              "num_gpus": 0,
               "test_file": "test_empty_colocated_weight_bucket.py"
             },
             {
@@ -882,6 +886,10 @@ jobs:
             {
               "num_gpus": 0,
               "test_file": "test_agent/test_trajectory_manager_branching.py"
+            },
+            {
+              "num_gpus": 0,
+              "test_file": "test_agent/test_trajectory_reasoning_echo.py"
             },
             {
               "num_gpus": 0,
